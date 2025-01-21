@@ -6,7 +6,28 @@ The AI Face Recognition Program consists of three distinct code modules designed
 To run the program, you only need to execute the code sequentially. First, run "01datasetHaar.py", then "02trainingDL.py", and finally "03recognitionDnnDL.py".
 
 ---
+## **Libraries Installation/Prerequisite**
+1. Install CMAKE. For linux, just run the command "sudo apt install cmake"
+2. Install opencv-python. This should install “numpy" too as dependencies.
 
+     ```bash
+     pip install opencv-python
+     ```
+3. Install face-recognition library. This should install “click”, 
+“dlib”, “face-recognition-model”, and “pillow” too as dependencies.
+
+    ```bash
+     pip install face-recognition
+     ```
+4. Install imutils
+    ```bash
+     pip install imutils
+     ```
+5. Install opencv-contrib-python
+    ```bash
+     pip install “opencv-contrib-python
+     ```
+    
 ## **Explanation**
 ### **1. Dataset Collection Program**
 The first code is a program to gather dataset of known faces. The code makes use of Haar Cascade 
