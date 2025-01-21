@@ -3,7 +3,7 @@ The AI Face Recognition Program consists of three distinct code modules designed
 
 ---
 
-###**1. Dataset Collection Program**
+## **1. Dataset Collection Program**
 
 This module is responsible for collecting a dataset of known faces using the Haar Cascade Classifier, a machine learning object detection method specialized in detecting frontal faces.
 
@@ -24,7 +24,7 @@ The process can be repeated to collect datasets for multiple individuals.
 A dataset folder containing subfolders of cropped frontal face images for each known person.
 
 
-###**2. Model Training Program**
+**2. Model Training Program**
 
 This module utilizes the face_recognition library to train a Deep Convolutional Neural Network (CNN) based on the ResNet architecture. This model has been pre-trained on a large dataset to extract facial features.
 
@@ -41,7 +41,7 @@ Store the encodings in a pickle file for future use in the recognition process.
 A pickle file containing the 128-dimensional encodings of known faces.
 
 
-###**3. Face Detection and Recognition Program**
+**3. Face Detection and Recognition Program**
 
 This module detects and recognizes faces using a combination of face detection and recognition methods.
 
