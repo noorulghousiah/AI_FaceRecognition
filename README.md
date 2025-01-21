@@ -12,10 +12,15 @@ To run the program, you only need to execute the code sequentially. First, run "
 This module is responsible for collecting a dataset of known faces using the Haar Cascade Classifier, a machine learning object detection method specialized in detecting frontal faces.
 **Process:**
 -The user starts the program and faces the camera.
+
 -The program detects the user's face.
+
 -Multiple pictures are captured.
+
 -Detected faces are cropped and saved in a dataset folder.
+
 -The process can be repeated to collect datasets for multiple individuals.
+
 **Outcome:**
 A dataset folder containing subfolders of cropped frontal face images for each known person.
 
